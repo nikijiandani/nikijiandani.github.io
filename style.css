@@ -15,6 +15,7 @@ body {
 }
 .intro p {
   color: #FFFFFF;
+  font-size: 24px;
 }
 .intro h1 {
   color: #212121;
@@ -133,6 +134,9 @@ nav ul li a:hover {
 @media (max-width: 480px){
   nav ul {
     flex-direction: column;
+  }
+  .intro {
+    padding-top: 24vh;
   }
 }
 @media (max-width: 768px){
