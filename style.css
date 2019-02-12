@@ -9,7 +9,7 @@ body {
 }
 /* INTRO HERO */
 .intro {
-  background: #F9CDAD;
+  background: #FC9D9A;
   min-height: 55vh;
   padding-top: 45vh;
 }
@@ -77,6 +77,9 @@ nav ul li a:hover {
   border-radius: 4px;
   cursor: pointer;
   padding-top:10px;
+}
+.show-all:hover{
+  text-decoration: underline;
 }
 .container {
   display: flex;
