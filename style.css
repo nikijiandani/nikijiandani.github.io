@@ -7,6 +7,7 @@ body {
   margin:0;
   padding:0;
 }
+/* INTRO HERO */
 .intro {
   background: #F8BBD0;
   min-height: 55vh;
@@ -19,6 +20,7 @@ body {
   color: #212121;
   font-weight: 400;
 }
+/* NAVIGATION */
 nav ul {
   text-align: right;
   position: fixed;
@@ -38,6 +40,7 @@ nav ul li a {
 nav ul li a:hover {
   color: #212121;
 }
+/* WORK SECTION */
 .work .work-header {
   margin-top: 50px;
   color: #212121;
@@ -61,6 +64,7 @@ nav ul li a:hover {
 }
 .project-title {
   font-weight: bold;
+  font-size: 24px;
 }
 #projects::before {
   display: block; 
@@ -85,6 +89,7 @@ nav ul li a:hover {
   cursor: pointer;
   padding-top:10px;
 }
+/* CONTACT SECTION */
 .contact {
   background: #E91E63;
   padding-bottom: 160px;
@@ -120,11 +125,5 @@ nav ul li a:hover {
 @media(max-width: 720px) {
   nav ul {
     text-align: center;
-  }
-  nav ul li {
-    margin: 20px;
-  }
-  .project {
-    margin: 40px 0;
   }
 }
