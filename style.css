@@ -50,12 +50,9 @@ nav ul li a:hover {
 .project {
   text-decoration: none;
   color: #212121;
-  display: inline-block;
-  overflow: hidden;
   border: 2px solid rgb(82, 72, 75);
   height: 220px;
   width: 280px;
-  margin: 40px 100px;
 }
 .project-pic {
   width: 100%;
@@ -88,6 +85,12 @@ nav ul li a:hover {
   border-radius: 4px;
   cursor: pointer;
   padding-top:10px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 /* CONTACT SECTION */
 .contact {
