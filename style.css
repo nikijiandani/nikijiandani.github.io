@@ -103,9 +103,11 @@ nav ul li a:hover {
 }
 .header h1 {
   color: #FFFFFF;
+  font-size: 40px;
 }
 .header p {
   color: #212121;
+  font-size: 24px;
 }
 .contact-details{
   display: inline-block;
