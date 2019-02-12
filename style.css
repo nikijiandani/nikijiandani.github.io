@@ -9,7 +9,7 @@ body {
 }
 /* INTRO HERO */
 .intro {
-  background: #F8BBD0;
+  background: #F9CDAD;
   min-height: 55vh;
   padding-top: 45vh;
 }
@@ -26,7 +26,7 @@ body {
 nav ul {
   display: flex;
   justify-content: flex-end;
-  background-color: #E91E63;
+  background-color: #FE4365;
 }
 nav ul li {
   display: inline-block;
@@ -63,14 +63,6 @@ nav ul li a:hover {
   font-weight: bold;
   font-size: 24px;
 }
-#projects::before {
-  display: block; 
-  content: " "; 
-  margin-top: -50px; 
-  height: 50px; 
-  visibility: hidden; 
-  pointer-events: none;
-}
 .show-all {
   text-decoration: none;
   display: block;
@@ -94,7 +86,7 @@ nav ul li a:hover {
 }
 /* CONTACT SECTION */
 .contact {
-  background: #E91E63;
+  background: #83AF9B;
   padding-bottom: 160px;
 }
 .header {
@@ -118,14 +110,14 @@ nav ul li a:hover {
   width: 100px;
   height: 100px;
   line-height: 100px;
-  background: #F8BBD0;
-  color: #212121;
-}
-.contact-details:hover{
-  text-decoration: underline;
+  color: #757575;
 }
 .contact-details i {
   margin-top: 25px;
+}
+.contact-details:hover {
+  background: #757575;
+  color: #fff;
 }
 /* MEDIA QUERIES */
 @media screen and (min-width: 320px) and (max-width: 768px) {
