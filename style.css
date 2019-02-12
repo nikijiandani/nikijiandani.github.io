@@ -119,13 +119,11 @@ nav ul li a:hover {
   width: 100px;
   height: 100px;
   line-height: 100px;
-  background: #BDBDBD;
-  color: #FFFFFF;
-}
-.contact-details:hover{
   background: #F8BBD0;
   color: #212121;
-  border: 2px solid #212121;
+}
+.contact-details:hover{
+  text-decoration: underline;
 }
 /* MEDIA QUERIES */
 @media screen and (min-width: 320px) and (max-width: 768px) {
