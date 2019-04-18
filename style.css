@@ -130,3 +130,21 @@ p {
 		margin-right: 0;
 	}
 }
+/* DESKTOP HD */
+@media (min-width: 1440px) {
+	.image {
+		background-image: url("./assets/niki---about-me-XL\ .png");
+		width: 640px;
+		height: 435px;
+	}
+	.about-me {
+		margin-top: 110px;
+	}
+	.box {
+		margin-left: 33px;
+	}
+	.content {
+		width: 40%;
+		margin-right: 51px;
+	}
+}
