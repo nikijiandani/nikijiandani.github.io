@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
 }
-.container {
+.box {
   margin-left: 18px;
 }
 .nikita-jiandani-copy-3 {
@@ -41,11 +41,11 @@
 	height: 39.02px;
 	width: 100%;
   background-color: #248700;
-  bottom: 0;
-  position: fixed;
   text-align: center;
   display: flex;
-  justify-content: space-evenly;
+	justify-content: space-evenly;
+	position: fixed;
+	bottom: 0;
 }
 .navbar a {
   display: inline-block;
@@ -62,7 +62,7 @@
   line-height: 24px;
 }
 #last {
-	margin-bottom: 50px;
+	margin-bottom: 60px;
 }
 #pipe {
 	font-size: 36px;
@@ -109,6 +109,6 @@
 		padding-bottom: 15px;
 	}
 	#last {
-		margin-bottom: 100px;
+		margin-bottom: 120px;
 	}
 }
