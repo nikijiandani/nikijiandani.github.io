@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
 }
+p {
+	margin-top: 10px;
+}
 .box {
   margin-left: 18px;
 }
@@ -69,6 +72,7 @@
 	padding-top: 4px;
 	font-weight: 100;
 }
+/* TABLET */
 @media (min-width: 768px){
 	.nikita-jiandani-copy-3 {
 		font-size: 60px;
@@ -110,5 +114,19 @@
 	}
 	#last {
 		margin-bottom: 120px;
+	}
+}
+/* DESKTOP */
+@media (min-width: 1024px) {
+	.container {
+		display: flex;
+		margin-bottom: 400px;
+	}
+	.image {
+		order: 2;
+	}
+	.content {
+		width: 50%;
+		margin-right: 0;
 	}
 }
