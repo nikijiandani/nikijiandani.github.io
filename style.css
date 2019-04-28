@@ -6,28 +6,28 @@ body {
 	font-size: 100%;
   }
 p {
-	margin-top: 10px;
+	margin-top: 0.714em;			/* 10/14 */ 
 }
 .box {
-  	margin-left: 18px;
+  	margin-left: 1.125em;			/* 18/16 */
 }
 .nikita-jiandani-copy-3 {
 	height: 72px;
 	color: #000000;
 	font-family: "Patua One";
-	font-size: 2em;				/* 32/16 */
+	font-size: 2em;					/* 32/16 */
 	font-weight: 100;
 	letter-spacing: 0.2px;
 	line-height: 36px;
-	margin-top: 24px;
+	margin-top: 0.75em;				/* 24 */
 }
 .about-me {
 	color: #248700;
 	font-family: "Patua One";
-	font-size: 1.25em;			/* 20/16 */
+	font-size: 1.25em;				/* 20/16 */
 	font-weight: 100;
 	letter-spacing: 0.25px;
-  	margin-top: 24px;
+  	margin-top: 1.2em;				/* 24 */
 }
 .image {
 	background-image: url("./assets/niki---about-me-XS.png");
@@ -38,10 +38,10 @@ p {
 .content {
 	color: #2A2C2E;
 	font-family: Lato;
-	font-size: 0.875em;			/* 14/16 */
+	font-size: 0.875em;				/* 14/16 */
 	letter-spacing: 0.35px;
 	padding-top: 12px;
-	margin-right: 16px;
+	margin-right: 1.1428em;			/* 16 */
 }
 .navbar {
 	height: 39.02px;
@@ -62,39 +62,39 @@ p {
 .tab {
 	color: #FFFFFF;
 	font-family: "Patua One";
-	font-size: 1.25em;			/* 20/16 */
+	font-size: 1.25em;				/* 20/16 */
 	letter-spacing: 0.25px;
   	line-height: 24px;
 }
 #last {
-	margin-bottom: 60px;
+	margin-bottom: 5em;				/* 70 */
 }
 #pipe {
-	height: 32px;
+	height: 1.85em;
 	width: 0.165em;
 	background-color: #FFFFFF;
-	margin-top: 3px;
+	margin-top: 0.05em;				/* 1 */
 }
 /* TABLET */
 @media (min-width: 768px){
 	.nikita-jiandani-copy-3 {
-		font-size: 3.75em;		/* 60/16 */
+		font-size: 3.75em;			/* 60/16 */
 		letter-spacing: 0.38px;
 		line-height: 60px;
 	}
 	.about-me {
-		font-size: 2.25em;		/* 36/16 */
+		font-size: 2.25em;			/* 36/16 */
 		letter-spacing: 0.45px;
 		line-height: 44px;
-		margin-top: 75px;
+		margin-top: 2.083333em;   	/* 75 */
 	}
 	.image {
 		background-image: url("./assets/niki---about-me-M.png");
 		height: 370px;
 	}
 	.content {
-		margin-right: 278px;
-		font-size: 1.125em;		/* 18/16 */
+		margin-right: 15.44444em;	/* 278 */
+		font-size: 1.125em;			/* 18/16 */
 		letter-spacing: 0.45px;
 		line-height: 22px;
 	}
@@ -104,24 +104,24 @@ p {
 		align-items: center;
 	}
 	.tab {
-		font-size: 2.25em;		/* 36/16 */
+		font-size: 2.25em;			/* 36/16 */
 		letter-spacing: 0.45px;
 		line-height: 44px;
-		margin-left: 32px;
+		margin-left: 0.88888em;		/* 32 */
 	}
 	#pipe {
 		height: 63px;
 		width: 0.15em;
 	}
 	#last {
-		margin-bottom: 120px;
+		margin-bottom: 6.66666em;	/* 120 */
 	}
 }
 /* DESKTOP */
 @media (min-width: 1024px) {
 	.container {
 		display: flex;
-		margin-bottom: 400px;
+		margin-bottom: 25em;		/* 400 */	
 	}
 	.image {
 		order: 2;
@@ -138,12 +138,12 @@ p {
 		height: 435px;
 	}
 	.about-me {
-		margin-top: 110px;
+		margin-top: 3.05555em;		/* 110 */
 	}
 	.box {
-		margin-left: 33px;
+		margin-left: 2.0625em;		/* 33 */
 	}
 	.content {
-		margin-right: 51px;
+		margin-right: 2.83333em;	/* 51 */
 	}
 }
