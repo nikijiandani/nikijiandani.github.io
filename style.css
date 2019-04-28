@@ -16,7 +16,7 @@ p {
 	font-family: "Patua One";
 	font-size: 2em;					/* 32/16 */
 	font-weight: 100;
-	line-height: 36px;
+	line-height: 1.125em;			/* 36 */
 	margin-top: 0.75em;				/* 24 */
 }
 .about-me {
@@ -60,7 +60,7 @@ p {
 	font-family: "Patua One";
 	font-size: 1.25em;				/* 20/16 */
 	letter-spacing: 0.25px;
-  	line-height: 24px;
+  	line-height: 1.2em;				/* 24 */
 }
 #last {
 	margin-bottom: 5em;				/* 70 */
@@ -75,11 +75,11 @@ p {
 @media (min-width: 768px){
 	.nikita-jiandani-copy-3 {
 		font-size: 3.75em;			/* 60/16 */
-		line-height: 60px;
+		line-height: 1em;			/* 60 */
 	}
 	.about-me {
 		font-size: 2.25em;			/* 36/16 */
-		line-height: 44px;
+		line-height: 1.22222em;		/* 44 */
 		margin-top: 2.083333em;   	/* 75 */
 	}
 	.image {
@@ -89,7 +89,7 @@ p {
 	.content {
 		margin-right: 15.44444em;	/* 278 */
 		font-size: 1.125em;			/* 18/16 */
-		line-height: 22px;
+		line-height: 1.22222em;		/* 22 */
 	}
 	.navbar {
 		height: 90px;
@@ -99,7 +99,7 @@ p {
 	.tab {
 		font-size: 2.25em;			/* 36/16 */
 		letter-spacing: 0.45px;
-		line-height: 44px;
+		line-height: 1.2222em;		/* 44 */
 		margin-left: 0.88888em;		/* 32 */
 	}
 	#pipe {
