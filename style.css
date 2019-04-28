@@ -12,12 +12,10 @@ p {
   	margin-left: 1.125em;			/* 18/16 */
 }
 .nikita-jiandani-copy-3 {
-	height: 72px;
 	color: #000000;
 	font-family: "Patua One";
 	font-size: 2em;					/* 32/16 */
 	font-weight: 100;
-	letter-spacing: 0.2px;
 	line-height: 36px;
 	margin-top: 0.75em;				/* 24 */
 }
@@ -26,7 +24,6 @@ p {
 	font-family: "Patua One";
 	font-size: 1.25em;				/* 20/16 */
 	font-weight: 100;
-	letter-spacing: 0.25px;
   	margin-top: 1.2em;				/* 24 */
 }
 .image {
@@ -39,7 +36,6 @@ p {
 	color: #2A2C2E;
 	font-family: Lato;
 	font-size: 0.875em;				/* 14/16 */
-	letter-spacing: 0.35px;
 	padding-top: 12px;
 	margin-right: 1.1428em;			/* 16 */
 }
@@ -79,12 +75,10 @@ p {
 @media (min-width: 768px){
 	.nikita-jiandani-copy-3 {
 		font-size: 3.75em;			/* 60/16 */
-		letter-spacing: 0.38px;
 		line-height: 60px;
 	}
 	.about-me {
 		font-size: 2.25em;			/* 36/16 */
-		letter-spacing: 0.45px;
 		line-height: 44px;
 		margin-top: 2.083333em;   	/* 75 */
 	}
@@ -95,7 +89,6 @@ p {
 	.content {
 		margin-right: 15.44444em;	/* 278 */
 		font-size: 1.125em;			/* 18/16 */
-		letter-spacing: 0.45px;
 		line-height: 22px;
 	}
 	.navbar {
