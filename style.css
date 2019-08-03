@@ -76,6 +76,7 @@ p {
 	.nikita-jiandani-copy-3 {
 		font-size: 3.75em;			/* 60/16 */
 		line-height: 1em;			/* 60 */
+		margin-top: 0.283333em		/* 17 */
 	}
 	.about-me {
 		font-size: 2.25em;			/* 36/16 */
@@ -114,10 +115,12 @@ p {
 @media (min-width: 1024px) {
 	.container {
 		display: flex;
-		margin-bottom: 25em;		/* 400 */	
+		margin-bottom: 10em;		/* 400 */	
 	}
 	.image {
 		order: 2;
+		margin-top: -3em;
+		margin-left: 2em;
 	}
 	.content {
 		width: 70%;
